@@ -54,6 +54,3 @@ AES File Encrypter / Downloader is under the MIT License. Refer to the LICENSE f
 ## Support
 
 If you encounter any issues or have suggestions for AES File Encrypter / Downloader, feel free to open an issue in this repository.
-
----
-I hope this example serves you well. Remember to adapt it to the specific needs of your project, and add or remove sections as necessary.
