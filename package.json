@@ -1,0 +1,19 @@
+{
+  "name": "AES-Encrypt-File",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.1",
+    "open": "^9.1.0"
+  }
+}

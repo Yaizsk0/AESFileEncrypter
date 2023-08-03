@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>File Encryption</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container dark-theme">
+      <h1 class="text-center">File Encrypter</h1>
+      <div class="custom-file mb-3">
+        <input
+          type="file"
+          class="custom-file-input"
+          id="file-input"
+          aria-describedby="fileUpload"
+        />
+        <label class="custom-file-label" for="file-input">Choose file</label>
+      </div>
+      <button class="btn btn-primary" id="encrypt-button">Encrypt</button>
+      <textarea
+        class="form-control my-3"
+        id="result"
+        rows="10"
+        readonly
+      ></textarea>
+      <button
+        class="btn btn-secondary"
+        id="copy-button"
+        onclick="copyToClipboard()"
+        disabled
+      >
+        Copy to Clipboard
+      </button>
+      <button class="btn btn-danger" id="decrypt-button">
+        Decrypt and Download
+      </button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
